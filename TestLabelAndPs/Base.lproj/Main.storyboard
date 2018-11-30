@@ -15,6 +15,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="I0o-jc-L2n" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BRq-Da-w4H">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -30,7 +31,7 @@
         <!--iOS-->
         <scene sceneID="VdG-Lv-c4i">
             <objects>
-                <viewController id="32Q-PF-Zqh" sceneMemberID="viewController">
+                <viewController id="32Q-PF-Zqh" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wO2-5q-DxN"/>
                         <viewControllerLayoutGuide type="bottom" id="Xmm-pe-SFK"/>

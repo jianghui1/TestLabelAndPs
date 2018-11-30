@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSString *text = @"中文高兴---aijghk";
+    CGFloat height = 21;
+    CGFloat width = [text boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, height) options:NSStringDrawingUsesFontLeading attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:21]} context:nil].size.width;
+    
+    NSLog(@"todo -- %f", width);
 }
 
 
